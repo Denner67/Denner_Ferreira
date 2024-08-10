@@ -20,8 +20,7 @@ O tutor será atendido por um atendente que verificará se há agendamento marca
 
 colocar aqui o diagrama de banco...
 
-![](https://imgs.search.brave.com/Q9CsE7p9E1Jw9ZsetXp7rIPX6T7fPsIoe9jJdHZxRDs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXRlb21vbWVudG8u/Y29tLmJyL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA1L2Rp/YWdyYW1hLWRlLWNs/YXNzZXMtdW1sLnBu/Zw)
-
+![]()
 # 3. Diagramas de casos de uso
 
 ![]()
