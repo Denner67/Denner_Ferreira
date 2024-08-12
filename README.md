@@ -18,7 +18,7 @@ O tutor será atendido por um atendente que verificará se há agendamento marca
 
 # 2. Diagrama do banco de dados
 
-![diagrama de banco de dados imagem exemplo](https://drive.google.com/file/d/1L0aJKtNLUstPYLTjxTxcZvGbjc2a2KeB/view?usp=drivesdk)
+![diagrama de banco de dados imagem exemplo]()
 # 3. Diagramas de casos de uso
 
 ![]()
