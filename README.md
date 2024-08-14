@@ -1,28 +1,17 @@
 # Denner_Ferreira
 
-
-Projeto de software
+---
+# 1. Descrição do sistema
 
 Nome da clinica:
 
 Dog&Cat Good Life
 
 Autor: Denner Ferreira de Morais
-
----
-# 1. Descrição do sistema
-
-<<<<<<< HEAD
-Nome da clinica:
-
-AnimalsGoodLife
-
-Autor: Denner Ferreira de Morais
 =======
 O sistema tem como objetivo atender apenas cães e gatos, para ser realizado esses atendimentos os tutores dos animais devem criar um cadastro para o animal e para si mesmo caso não tenham. Para que os animais recebam o melhor tratamento possivel os tutores devem informar ao médico veterinário quais são as condições atuais do animal, hábitos e tipo de ração.
 O tutor será atendido por um atendente que verificará se há agendamento marcado, caso não há o tutor juntamente com seu animal ficará em uma fila de espera dependendo da gravidade do problema. O veterinário faz uma espécie de intrevista com o tutor. Cada animal que recebeu atendimento terá uma ficha e prontuário, o atendimento gera uma receita para o animal.
 
->>>>>>> 9b7d4883217c676c8cc461bfc1ac891a79d291ba
 
 1. Uma clínica veterinária atende apenas os animais: gatos e cachorros. 
 2. Os clientes devem fazer um cadastro de si e dos animais. 
@@ -49,17 +38,83 @@ O tutor será atendido por um atendente que verificará se há agendamento marca
 23. A clínica da descontos aos clientes que tem menos condições.
 24. A clínica tem atendimento de plantão.
 
+---
 # 2. Diagrama do banco de dados
 
-<<<<<<< HEAD
-colocar aqui o diagrama de banco...
+
+teste
+
+```mermaid
+
+erDiagram
+    CLIENTE {
+        int id_cliente PK
+        string nome
+        string telefone
+        string endereco
+    }
+
+    ANIMAL {
+        int id_animal PK
+        int id_cliente FK
+        string nome
+        string tipo
+        string raca
+        string condicao
+        string tipo_racao
+        string habitos
+    }
+
+    VETERINARIO {
+        int id_veterinario PK
+        string nome
+        string especialidade
+    }
+
+    ATENDENTE {
+        int id_atendente PK
+        string nome
+    }
+
+    AGENDA {
+        int id_agenda PK
+        int id_veterinario FK
+        int id_animal FK
+        date data
+        time hora
+        string status
+    }
+
+    FICHA {
+        int id_ficha PK
+        int id_animal FK
+        int id_veterinario FK
+        date data
+        text observacoes
+    }
+
+    RECEITA {
+        int id_receita PK
+        int id_animal FK
+        text descricao
+        date data
+    }
+
+    CLIENTE ||--o{ ANIMAL : "possui"
+    ANIMAL ||--o{ FICHA : "tem"
+    VETERINARIO ||--o{ FICHA : "preenche"
+    VETERINARIO ||--o{ AGENDA : "tem"
+    ANIMAL ||--o{ AGENDA : "tem"
+    FICHA ||--o{ RECEITA : "pode gerar"
+    ANIMAL ||--o{ RECEITA : "pode ter"
+    CLIENTE ||--o{ AGENDA : "pode agendar"
+    ATENDENTE ||--o{ AGENDA : "verifica"
+
+
+
+```
 
 ---
-![]
----
-=======
-![diagrama de banco de dados imagem exemplo]()
->>>>>>> 9b7d4883217c676c8cc461bfc1ac891a79d291ba
 # 3. Diagramas de casos de uso
 
 ![]()
