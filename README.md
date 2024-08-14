@@ -42,7 +42,6 @@ O tutor será atendido por um atendente que verificará se há agendamento marca
 # 2. Diagrama do banco de dados
 
 
-teste
 
 ```mermaid
 
