@@ -107,8 +107,6 @@ erDiagram
     CLIENTE ||--o{ AGENDA : "pode agendar"
     ATENDENTE ||--o{ AGENDA : "verifica"
 
-
-
 ```
 
 ---
