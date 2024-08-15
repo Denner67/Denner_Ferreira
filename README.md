@@ -41,7 +41,7 @@ O tutor será atendido por um atendente que verificará se há agendamento marca
 ---
 # 2. Diagrama do banco de dados
 
-![](https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png?token=GHSAT0AAAAAACV3RRKEGBCE5JXXHLJTUGTAZV5QT2A)
+![]()
 
 ```mermaid
 
@@ -116,7 +116,7 @@ erDiagram
 ---
 # 3. Diagramas de casos de uso
 
-![]()
+![](https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png?token=GHSAT0AAAAAACV3RRKEGBCE5JXXHLJTUGTAZV5QT2A)
 
 ---
 # 4. Principais telas do sistema
