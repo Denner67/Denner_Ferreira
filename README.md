@@ -116,7 +116,7 @@ erDiagram
 ---
 # 3. Diagramas de casos de uso
 
-![]()
+![https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png](https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png)
 
 ---
 # 4. Principais telas do sistema
