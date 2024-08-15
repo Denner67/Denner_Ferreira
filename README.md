@@ -3,9 +3,7 @@
 ---
 # 1. Descrição do sistema
 
-Nome da clinica:
-
-Dog&Cat Good Life
+Nome da clinica: Dog&Cat Good Life
 
 Autor: Denner Ferreira de Morais
 =======
