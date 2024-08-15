@@ -41,7 +41,7 @@ O tutor será atendido por um atendente que verificará se há agendamento marca
 ---
 # 2. Diagrama do banco de dados
 
-
+![](<Diagrama marcelandia.drawio.png>)
 
 ```mermaid
 
