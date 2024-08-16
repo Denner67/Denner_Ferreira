@@ -130,7 +130,6 @@ erDiagram
 ---
 # 5. Arquitetura do sistema
 
-```mermaid
 
 graph TD;
     ClientWeb[Cliente Web] --> |Requisição HTTP| WebServer[Servidor Web];
@@ -140,4 +139,3 @@ graph TD;
     PHPApp --> |Resposta HTTP| WebServer;
     WebServer --> |Resposta HTTP| ClientWeb;
 
-```
