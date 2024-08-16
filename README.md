@@ -124,11 +124,3 @@ erDiagram
 
 ![]()
 
-graph TD;
-    ClientWeb[Cliente Web] --> |Requisição HTTP| WebServer[Servidor Web];
-    WebServer --> |Processamento PHP| PHPApp[Aplicação PHP];
-    PHPApp --> |Consulta/Atualização| Database[Servidor de Banco de Dados];
-    Database --> |Resposta| PHPApp;
-    PHPApp --> |Resposta HTTP| WebServer;
-    WebServer --> |Resposta HTTP| ClientWeb;
-
