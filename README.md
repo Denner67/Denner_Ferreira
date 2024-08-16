@@ -117,7 +117,7 @@ erDiagram
 ---
 # 4. Principais telas do sistema
 
-![]()
+![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telalogin.png?](https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telalogin.png)
 
 ---
 # 5. Arquitetura do sistema
