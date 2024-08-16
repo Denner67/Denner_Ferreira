@@ -41,7 +41,7 @@ O tutor será atendido por um atendente que verificará se há agendamento marca
 ---
 # 2. Diagrama do banco de dados
 
-![](<Diagrama marcelandia.drawio.png>)
+![]()
 
 ```mermaid
 
@@ -116,7 +116,11 @@ erDiagram
 ---
 # 3. Diagramas de casos de uso
 
+<<<<<<< HEAD
 ![https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png](https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png)
+=======
+![](https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png?token=GHSAT0AAAAAACV3RRKEGBCE5JXXHLJTUGTAZV5QT2A)
+>>>>>>> da72c7d22d2bbe8929827437be62aac10a4e5299
 
 ---
 # 4. Principais telas do sistema
@@ -126,4 +130,14 @@ erDiagram
 ---
 # 5. Arquitetura do sistema
 
-![]()
+```mermaid
+
+graph TD;
+    ClientWeb[Cliente Web] --> |Requisição HTTP| WebServer[Servidor Web];
+    WebServer --> |Processamento PHP| PHPApp[Aplicação PHP];
+    PHPApp --> |Consulta/Atualização| Database[Servidor de Banco de Dados];
+    Database --> |Resposta| PHPApp;
+    PHPApp --> |Resposta HTTP| WebServer;
+    WebServer --> |Resposta HTTP| ClientWeb;
+
+```
