@@ -112,7 +112,7 @@ erDiagram
 ---
 # 3. Diagramas de casos de uso
 
-test
+![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/casos_de_uso.png?raw=true](https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/casos_de_uso.png?raw=true)
 
 ---
 # 4. Principais telas do sistema
