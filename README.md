@@ -123,5 +123,5 @@ erDiagram
 ---
 # 5. Arquitetura do sistema
 
-![]()
+![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/arquitetura.png?raw=true](https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/arquitetura.png)
 
