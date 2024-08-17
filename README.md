@@ -112,13 +112,14 @@ erDiagram
 ---
 # 3. Diagramas de casos de uso
 
-![](https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png?token=GHSAT0AAAAAACV3RRKEGBCE5JXXHLJTUGTAZV5QT2A)
+![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/casos_de_uso.png](https://raw.githubusercontent.com/Denner67/Denner_Ferreira/main/Imagens/DiagramaUml.drawio.png?)
 
 ---
 # 4. Principais telas do sistema
 
-![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telalogin.png?](https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telalogin.png)
-
+![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telalogin.png](https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telalogin.png)
+![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telacliente.png](https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/telacliente.png)
+![https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/grafico.png](https://github.com/Denner67/Denner_Ferreira/blob/main/Imagens/grafico.png)
 ---
 # 5. Arquitetura do sistema
 
